@@ -6,13 +6,13 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  margin: 0 -15px;
 }
 .card {
   width: 350px;
   height: 225px;
-  top: 279px;
-  left: 147px;
-  margin: auto;
+
+  margin: 0 15px;
 }
 .card-img {
   width: 70px;
