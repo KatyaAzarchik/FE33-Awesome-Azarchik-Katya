@@ -7,9 +7,7 @@
   line-height: 19.07px;
   color: #86878b;
 }
-.rate {
-  text-align: center;
-}
+
 .rate-wrap {
   display: flex;
   justify-content: space-between;
@@ -17,19 +15,19 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-
   margin: 0 -15px;
 }
 .rate-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
   margin: 0 15px;
 }
 .rate-card-name {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
+  line-height: 50px;
   width: 340px;
-  height: 50px;
   background-color: #333333;
   margin-bottom: 2px;
   font-size: 20px;
@@ -38,12 +36,8 @@
 }
 
 .rate-card-cost {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
   width: 340px;
-  height: 100px;
+  line-height: 100px;
   background-color: #333333;
   margin-bottom: 2px;
   font-size: 35px;
@@ -52,12 +46,8 @@
   font-family: "Raleway";
 }
 .rate-card-comment {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
   width: 340px;
-  height: 50px;
+  line-height: 50px;
   background-color: #333333;
   margin-bottom: 4px;
   font-size: 14px;
@@ -65,16 +55,14 @@
   color: #ffffff80;
 }
 .rate-card-item {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
   width: 340px;
-  height: 40px;
+  line-height: 40px;
   background-color: #ffffff;
   margin-bottom: 4px;
-
   font-size: 14px;
   font-weight: 400;
   color: #86878b;
+}
+.rate-card-item:last-child {
+  margin-bottom: 0;
 }
