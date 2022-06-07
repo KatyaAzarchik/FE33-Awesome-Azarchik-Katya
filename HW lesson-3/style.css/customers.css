@@ -14,7 +14,8 @@
   flex-direction: column;
 }
 
-.comment-item main-comment {
+
+.comment-item {
   width: 598px;
 }
 

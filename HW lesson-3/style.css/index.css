@@ -1,6 +1,10 @@
 @import url("../style.css/cdn.css");
 @import url("../style.css/head.css");
 @import url("../style.css/customers.css");
+@import url("../style.css/axure.css");
+@import url("../style.css/cards.css");
+@import url("../style.css/pricing.css");
+
 
 * {
   margin: 0;
@@ -19,4 +23,18 @@ html {
 }
 .customers {
   padding: 44px 0 156px 0;
+  position: relative;
+  z-index: 5;
+}
+.axure {
+  padding: 57px 0 49px 0;
+}
+
+.Awesome {
+  padding: 80px 0 96px 0;
+}
+.Pricing {
+  padding: 80px 0 60px 0;
+  background-color: #f5f5f5;
+
 }
