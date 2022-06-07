@@ -17,13 +17,11 @@
   width: 64px;
   height: 1px;
   background-color: #e72424;
-
   margin: 34px auto;
   display: block;
 }
 
-
-.description p {
+.description {
   text-align: center;
   margin: 34px auto 68px auto;
   width: auto;

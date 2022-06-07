@@ -1,5 +1,6 @@
 @import url("../style.css/cdn.css");
 @import url("../style.css/head.css");
+@import url("../style.css/customers.css");
 @import url("../style.css/axure.css");
 @import url("../style.css/cards.css");
 @import url("../style.css/pricing.css");
@@ -19,12 +20,14 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+}
+.customers {
+  padding: 44px 0 156px 0;
   position: relative;
   z-index: 5;
 }
 .axure {
   padding: 57px 0 49px 0;
-=======
 }
 
 .Awesome {
