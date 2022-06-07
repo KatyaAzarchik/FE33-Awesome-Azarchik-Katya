@@ -3,7 +3,9 @@
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 400;
-  width: 495.5px;
+
+  width: 700px;
+
   line-height: 42px;
   font-family: "Raleway";
   color: #212121;
@@ -19,11 +21,7 @@
   margin: 34px auto;
   display: block;
 }
-.line {
-  width: 64px;
-  border-top: 1px solid #e72424;
-  margin: auto;
-}
+
 
 .description p {
   text-align: center;
