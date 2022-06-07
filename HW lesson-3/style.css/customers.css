@@ -14,11 +14,6 @@
   flex-direction: column;
 }
 
-
-.comment-item {
-  width: 598px;
-}
-
 .comment {
   background-color: #e2e2e2;
   border-radius: 7px;
