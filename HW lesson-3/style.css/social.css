@@ -1,0 +1,108 @@
+.social {
+  background-image: url(../img/background\ social.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 3;
+}
+
+.social::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+}
+
+.wrap-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  text-align: left;
+  width: 544px;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Raleway";
+  line-height: 42px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 42px;
+  margin-bottom: 32px;
+}
+.title::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 1);
+  display: block;
+  margin-top: 34px;
+  margin-bottom: 39px;
+}
+.title::before {
+  content: "AX" "IT";
+  font-family: "roboto";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  color: rgba(255, 255, 255, 1) rgba(236, 121, 121, 1);
+  display: block;
+  margin-bottom: 42px;
+}
+
+.about-description {
+  width: 282px;
+  line-height: 19px;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 39px;
+}
+.dowload-main {
+}
+.registrating-window {
+  width: 370px;
+  height: 370px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 110px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.window-name {
+}
+.registration {
+  width: 252px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  color: rgba(189, 189, 189, 1);
+}
+
+.registration li:after {
+  content: "";
+  width: 252px;
+  height: 1px;
+  background-color: rgba(189, 189, 189, 1);
+  display: block;
+}
+
+.get-started {
+  width: 370px;
+  height: 54px;
+  background-color: rgba(236, 121, 121, 1);
+  margin-bottom: 0;
+}
