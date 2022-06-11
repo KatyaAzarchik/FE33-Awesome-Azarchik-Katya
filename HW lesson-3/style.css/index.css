@@ -4,7 +4,7 @@
 @import url("../style.css/axure.css");
 @import url("../style.css/cards.css");
 @import url("../style.css/pricing.css");
-@import url(../style.css/social.css);
+@import url(../style.css/first-screen.css);
 @import url(../style.css/header.css);
 @import url(../style.css/social-media..css);
 
@@ -41,7 +41,7 @@ html {
   padding: 80px 0 60px 0;
   background-color: #f5f5f5;
 }
-.social {
+.first-screen {
   padding: 80px 0 96px 0;
 }
 .header {
