@@ -6,6 +6,7 @@
 @import url("../style.css/pricing.css");
 @import url(../style.css/social.css);
 @import url(../style.css/header.css);
+@import url(../style.css/social-media..css);
 
 * {
   margin: 0;
@@ -45,4 +46,7 @@ html {
 }
 .header {
   padding: 25px 0 25px 0;
+}
+.social-media {
+  padding: 14px 0 17px 0;
 }
