@@ -133,7 +133,7 @@
   flex-direction: column;
   padding: 45px 59px 61px;
 }
-input {
+input.name {
   height: 19px;
   color: black;
   font-family: "Open Sans";
@@ -144,8 +144,36 @@ input {
   border-color: rgba(189, 189, 189, 1);
   margin-bottom: 19px;
   outline: none;
+  display: block;
+  width: 100%;
+}
+input.email {
+  height: 19px;
+  color: black;
+  font-family: "Open Sans";
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgba(189, 189, 189, 1);
+  margin-bottom: 19px;
+  outline: none;
+  display: block;
+  width: 100%;
 }
 input.password {
+  height: 19px;
+  color: black;
+  font-family: "Open Sans";
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgba(189, 189, 189, 1);
+  margin-bottom: 19px;
+  outline: none;
+  display: block;
+  width: 100%;
   margin-bottom: 0px;
 }
 input:focus {

@@ -28,7 +28,7 @@
 .rate-card:hover {
   transform: translate(5px, -20px);
   cursor: pointer;
-  transition-duration: 0.05s;
+  transition-duration: 0.09s;
   box-shadow: 5px -5px 25px #767676;
 }
 .rate-card-name {
@@ -44,7 +44,7 @@
 .rate-card-name:hover {
   color: #ffffff;
   background-color: #e72424;
-  transition-duration: 0.05s;
+  transition-duration: 0.5s;
 }
 
 .rate-card-cost {
@@ -60,7 +60,7 @@
 .rate-card-cost:hover {
   color: #ffffff;
   background-color: #e72424;
-  transition-duration: 0.05s;
+  transition-duration: 0.5s;
 }
 .rate-card-comment {
   width: 340px;
@@ -74,7 +74,7 @@
 .rate-card-comment:hover {
   color: #ffffff;
   background-color: #e72424;
-  transition-duration: 0.05s;
+  transition-duration: 0.5s;
 }
 .rate-card-item {
   width: 340px;
@@ -88,7 +88,7 @@
 .rate-card-item:hover {
   color: #ffffff;
   background-color: #e72424;
-  transition-duration: 0.05s;
+  transition-duration: 0.5s;
 }
 .rate-card-item:last-child {
   margin-bottom: 0;
