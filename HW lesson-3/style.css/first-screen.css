@@ -125,16 +125,29 @@
   margin-bottom: 0;
 }
 .form-input {
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(189, 189, 189, 1);
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding: 45px 59px 61px;
 }
+label.name {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+}
+label.email {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+  display: block;
+}
+label.password {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+  display: block;
+}
 input.name {
-  height: 19px;
   color: black;
   font-family: "Open Sans";
   border-width: 1px;
@@ -148,7 +161,6 @@ input.name {
   width: 100%;
 }
 input.email {
-  height: 19px;
   color: black;
   font-family: "Open Sans";
   border-width: 1px;
@@ -162,7 +174,6 @@ input.email {
   width: 100%;
 }
 input.password {
-  height: 19px;
   color: black;
   font-family: "Open Sans";
   border-width: 1px;
@@ -173,7 +184,6 @@ input.password {
   outline: none;
   display: block;
   width: 100%;
-  margin-bottom: 0px;
 }
 input:focus {
   border-color: rgba(236, 121, 121, 1);
