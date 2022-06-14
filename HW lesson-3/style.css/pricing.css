@@ -28,7 +28,7 @@
 .rate-card:hover {
   transform: translate(5px, -20px);
   cursor: pointer;
-  transition-duration: 0.09s;
+  transition: 0.2s;
   box-shadow: 5px -5px 25px #767676;
 }
 .rate-card-name {
@@ -41,12 +41,6 @@
   color: #ffffff;
 }
 
-.rate-card-name:hover {
-  color: #ffffff;
-  background-color: #e72424;
-  transition-duration: 0.5s;
-}
-
 .rate-card-cost {
   width: 340px;
   line-height: 100px;
@@ -57,11 +51,7 @@
   color: #ffffff;
   font-family: "Raleway";
 }
-.rate-card-cost:hover {
-  color: #ffffff;
-  background-color: #e72424;
-  transition-duration: 0.5s;
-}
+
 .rate-card-comment {
   width: 340px;
   line-height: 50px;
@@ -71,11 +61,7 @@
   font-weight: 600;
   color: #ffffff80;
 }
-.rate-card-comment:hover {
-  color: #ffffff;
-  background-color: #e72424;
-  transition-duration: 0.5s;
-}
+
 .rate-card-item {
   width: 340px;
   line-height: 40px;
@@ -85,11 +71,7 @@
   font-weight: 400;
   color: #86878b;
 }
-.rate-card-item:hover {
-  color: #ffffff;
-  background-color: #e72424;
-  transition-duration: 0.5s;
-}
+
 .rate-card-item:last-child {
   margin-bottom: 0;
 }

@@ -1,9 +1,12 @@
 .contact-us-form-content {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
 }
 .contacts {
   width: 478.01px;
+  margin: 0 15px;
 }
 input.contact-us-name {
   width: 100%;
@@ -104,7 +107,9 @@ textarea:focus {
   font-family: "open sans";
   font-size: 14px;
 }
-
+.contact-us-form-textarea {
+  margin: 0 15px;
+}
 .contact-us-message {
   text-align: start;
   color: rgba(189, 189, 189, 1);

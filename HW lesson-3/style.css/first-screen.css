@@ -23,6 +23,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.title-description-download {
+  margin: 0 15px;
 }
 .title {
   text-align: left;
@@ -44,14 +49,14 @@
   margin-top: 34px;
   margin-bottom: 39px;
 }
-.logo-first-screen-AX {
+.logo-first-screen-ax {
   font-family: "roboto";
   font-size: 60px;
   font-weight: 400;
   line-height: 70px;
   color: rgba(255, 255, 255, 1);
 }
-.logo-first-screen-IT {
+.logo-first-screen-it {
   font-family: "roboto";
   font-size: 60px;
   font-weight: 400;
@@ -96,6 +101,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 15px;
 }
 .window-name {
   width: 370px;

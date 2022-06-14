@@ -6,9 +6,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
 }
 .social-title {
-  margin-right: 129px;
+  margin: 0 15px;
 }
 .social-media-title {
   text-align: left;
@@ -31,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   width: 684px;
+  margin: 0 15px;
 }
 
 .fa-facebook-f {

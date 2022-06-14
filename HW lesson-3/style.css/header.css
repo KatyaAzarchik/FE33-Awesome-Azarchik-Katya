@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin: 0 -15px;
 }
 .logo {
   width: 80px;
@@ -17,6 +18,7 @@
   font-weight: 400;
   line-height: 35px;
   display: flex;
+  margin: 0 15px;
 }
 .logo-ax {
   font-family: "Raleway";
@@ -42,6 +44,7 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 20px;
+  margin: 0 15px;
 }
 
 .feauters:hover {
