@@ -29,7 +29,7 @@
 }
 
 .comment p {
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
   line-height: 19px;
   color: #86878b;
@@ -58,12 +58,12 @@
   margin-bottom: 12px;
   display: block;
   width: 97px;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
 }
 .position-autor {
   width: 59px;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
   color: #86878b;
 }

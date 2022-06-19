@@ -18,10 +18,9 @@
 }
 
 .axure-title {
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 400;
   line-height: 42px;
-  width: 448px;
   font-family: "Raleway";
   text-align: center;
   color: #ffffff;
@@ -38,10 +37,9 @@
 }
 
 .axure-description {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 19px;
-  width: 779px;
   font-family: "Raleway";
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
